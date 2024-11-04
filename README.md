@@ -1,4 +1,4 @@
-# TensorTrainKernel
+# ParametricTensorTrainKernel
 
 1. `chmod +x setup_env.sh`
 2. `chmod +x run_experiments.sh`
