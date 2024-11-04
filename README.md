@@ -32,6 +32,13 @@ To use these codes in your research, please see the [License](LICENSE). If you f
 1. `chmod +x run_experiments.sh`
 2. `./run_experiments.sh`
 
+## Experiments
+1. [experiment_1](https://github.com/awkhan3/ParametricTensorTrainKernel/blob/main/experiments/experiment_1.py) compares our TTK (Tensor Train Kernel) method with thin SVD.
+2. [experiment_2](https://github.com/awkhan3/ParametricTensorTrainKernel/blob/main/experiments/experiment_2.py) compares our PTTK method with Adaptive Cross Approximation (ACA).
+3. [experiment_3](https://github.com/awkhan3/ParametricTensorTrainKernel/blob/main/experiments/experiment_3.py) performs PTTK-Global-1 and PTTK-Global-2 on symmetric kernel matrices.
+4. [experiment_4](https://github.com/awkhan3/ParametricTensorTrainKernel/blob/main/experiments/experiment_4.py) compares our PTTK-Global-1 and PTTK-Global-2 method with RP-Cholesky and Nystrom on a symmetric positve semi-definite kernel matrix.
+5. [experiment_5](https://github.com/awkhan3/ParametricTensorTrainKernel/blob/main/experiments/experiment_5.py) compares our PTTK method with [Tucker applied to parametric kernel matrices](https://link.springer.com/article/10.1007/s10444-022-09979-7) in three spatial dimensions, can easily be edited to two spatial dimensons by changing the dimension parameter.
+
 ## Funding
 This work was funded by the National Science Foundation through the awards DMS-1845406, DMS-1821149, and 
 DMS-2026830.
