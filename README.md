@@ -5,7 +5,7 @@ This repository contains Python code for computing low-rank approximations of pa
 > Khan, A., & Saibaba, A. K. (2024). Parametric kernel low-rank approximations using tensor train decomposition. Submitted. [arXiv preprint](https://arxiv.org/abs/2406.06344).
 
 ## Requirements
-The [Python](python/) code requires the following packages for test problems.
+The [Python](python/) code requires the following packages to generate the tables.
 1. [numpy](https://github.com/numpy/numpy)
 2. [tensorly](https://github.com/scipy/scipy)
 3. [pytorch](https://github.com/pytorch/pytorch)
