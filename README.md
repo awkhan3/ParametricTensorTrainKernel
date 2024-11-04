@@ -13,7 +13,7 @@ The [Python](python/) code requires the following packages to generate the table
 5. [scikit-learn](https://github.com/scikit-learn/scikit-learn)
 6. [tntorch(forked)](https://github.com/awkhan3/tntorch)
 7. [py-markdown-table](https://pypi.org/project/py-markdown-table/)
-8. [RP-Cholesky](https://github.com/eepperly/Randomly-Pivoted-Cholesky) (note, we have a local copy of the RP-Cholesky method for reproducbility)
+8. [RP-Cholesky](https://github.com/eepperly/Randomly-Pivoted-Cholesky) (note, there is  local copy of the RP-Cholesky method in this repo for reproducbility)
 
 ## License
 To use these codes in your research, please see the [License](LICENSE). If you find our code useful, please consider citing our paper.
