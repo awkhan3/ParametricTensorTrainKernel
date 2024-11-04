@@ -1,7 +1,7 @@
 # ParametricTensorTrainKernel
 
 # Parametric kernel low-rank approximations using tensor train decomposition
-This repository contains Python code for computing low-rank approximations of kernel matrices with the tensor train decomposition. It accompanies the paper
+This repository contains Python code for computing low-rank approximations of parametric kernel matrices with the tensor train decomposition. It accompanies the paper
 > Khan, A., & Saibaba, A. K. (2024). Parametric kernel low-rank approximations using tensor train decomposition. Submitted. [arXiv preprint](https://arxiv.org/abs/2406.06344).
 
 ## Requirements
