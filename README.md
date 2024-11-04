@@ -24,7 +24,7 @@ To use these codes in your research, please see the [License](LICENSE). If you f
   year={2024}
 }
 ```
-## Enviroment
+## Python Enviroment Setup
 1. `chmod +x setup_env.sh`
 2. `./setup_env`
 
