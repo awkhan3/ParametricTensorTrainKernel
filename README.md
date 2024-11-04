@@ -33,10 +33,8 @@ To use these codes in your research, please see the [License](LICENSE). If you f
 2. `./run_experiments.sh`
 
 ## Funding
-
-
-
-
+This work was funded by the National Science Foundation through the awards DMS-1845406, DMS-1821149, and 
+DMS-2026830.
 
 
  
