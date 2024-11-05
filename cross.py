@@ -452,7 +452,7 @@ def init_cross_approximation(ind_left, ind_right, factors, mid_inv, u, fun):
             for j in range(num_crosses):
                 A_cross[i, j] = g(i, j)
 
-        print(np.linalg.cond(A_cross))
+   #     print(np.linalg.cond(A_cross))
 
         # analytically construct LU
         u11 = A_cross[0, 0]
