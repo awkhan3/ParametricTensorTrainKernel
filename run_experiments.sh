@@ -17,7 +17,7 @@ do
   python experiment_${k}.py > experiments_out/experiment_${k}_result.txt
 
   # Delete the experiment file after running it
-  rm -r experiment_${k}.py
+  rm experiment_${k}.py
 
   # Print message to indicate completion
   echo "Ran experiment_${k}.py, output saved to experiments_out/experiment_${k}_result.txt and the script was deleted."
