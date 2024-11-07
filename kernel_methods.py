@@ -151,6 +151,7 @@ class KernelApprox:
             assert len(params) == 2
 
         self.param_flag = True
+        self.method = method
         psd_flag = True
         self.num_ker_evals = 0
         param_poly_lst = []
