@@ -3,6 +3,7 @@ import os
 from kernel_methods import KernelApprox
 import numpy as np
 import time
+import pandas as pd
 from py_markdown_table.markdown_table import markdown_table
 import random
 import sys
@@ -12,6 +13,18 @@ from rpchol.matrix import KernelMatrix
 from rpchol.rpcholesky import rpcholesky
 from sklearn.kernel_approximation import Nystroem
 from sklearn.gaussian_process.kernels import RBF
+from sklearn.preprocessing import StandardScaler
+
+
+
+
+# Load the data and normalize it.
+filename = "precipitation.txt"
+data = pd.read_csv(filename)
+matrix = data[['latitude', 'longitude', 'time']].values
+scaler = StandardScaler()
+normalized_matrix = scaler.fit_transform(matrix)
+
 
 
 def eprint(*args, **kwargs):
@@ -21,8 +34,7 @@ def format_e(n):
     a = '%.3E' % n
     return a.split('E')[0].rstrip('0').rstrip('.') + 'E' + a.split('E')[1]
 
-mat = scipy.io.loadmat('precip_mat.mat')
-mat = mat['A1']
+
 # The name of the kernel.
 kernel_names = ["squared-exponential"]
 # The number of Chebyshev points to take
@@ -33,7 +45,7 @@ num_samples = 300
 # Dimension of the problem
 dimension = 3
 
-X = mat
+X = normalized_matrix
 Y = X
 
 
