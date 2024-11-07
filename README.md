@@ -6,7 +6,7 @@ The results generated in the [folder](https://github.com/awkhan3/ParametricTenso
 
 ## Requirements
 The Python code requires the following packages to generate the tables.
-1. [numpy](https://github.com/numpy/numpy)
+1. [numpy](https://github.com/tensorly/tensorly)
 2. [scipy](https://github.com/scipy/scipy)
 3. [tensorly](https://github.com/scipy/scipy)
 4. [pytorch](https://github.com/pytorch/pytorch)
