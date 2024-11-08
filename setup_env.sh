@@ -24,7 +24,7 @@ echo "Installing required Python packages globally or into the current Python en
 
 # Step 3: Install the required Python packages using pip
 python3 -m pip install --upgrade pip  # Upgrade pip to the latest version
-python3 -m pip install numpy scipy torch numba py-markdown-table scikit-learn tensorly
+python3 -m pip install numpy scipy torch numba py-markdown-table scikit-learn tensorly pandas
 
 # Step 4: Install the tntorch package from GitHub
 echo "Installing tntorch from GitHub..."
