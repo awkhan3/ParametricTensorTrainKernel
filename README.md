@@ -8,13 +8,14 @@ The results generated in the [folder](https://github.com/awkhan3/ParametricTenso
 The Python code requires the following packages to generate the tables.
 1. [numpy](https://github.com/numpy/numpy)
 2. [scipy](https://github.com/scipy/scipy)
-3. [tensorly](https://github.com/tensorly/tensorly)
-4. [pytorch](https://github.com/pytorch/pytorch)
-5. [numba](https://github.com/numba/numba)
-6. [scikit-learn](https://github.com/scikit-learn/scikit-learn)
-7. [tntorch(forked)](https://github.com/awkhan3/tntorch)
-8. [py-markdown-table](https://pypi.org/project/py-markdown-table/)
-9. [RP-Cholesky](https://github.com/eepperly/Randomly-Pivoted-Cholesky) (note there is a [local copy](https://github.com/awkhan3/ParametricTensorTrainKernel/tree/main/rpchol) of RP-Cholesky in this repository for reproducibility)
+3. [pandas](https://github.com/pandas-dev/pandas)
+4. [tensorly](https://github.com/tensorly/tensorly)
+5. [pytorch](https://github.com/pytorch/pytorch)
+6. [numba](https://github.com/numba/numba)
+7. [scikit-learn](https://github.com/scikit-learn/scikit-learn)
+8. [tntorch(forked)](https://github.com/awkhan3/tntorch)
+9. [py-markdown-table](https://pypi.org/project/py-markdown-table/)
+10. [RP-Cholesky](https://github.com/eepperly/Randomly-Pivoted-Cholesky) (note there is a [local copy](https://github.com/awkhan3/ParametricTensorTrainKernel/tree/main/rpchol) of RP-Cholesky in this repository for reproducibility)
 
 ## License
 To use these codes in your research, please see the [License](LICENSE). If you find our code useful, please consider citing our paper.
