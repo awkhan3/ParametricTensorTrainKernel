@@ -403,8 +403,8 @@ class KernelApprox:
 # public helper classes.
 class InterpolatingPolynomial:
     """
-    InterpolatingPolynomial is a public class that creates a chebyshev polynomial object over the interval [a, b]
-    with n chebyshev nodes of the first kind.
+    InterpolatingPolynomial is a public class that creates an interpolating polynomial object over the interval [a, b]
+    at n Chebyshev nodes of the first kind.
     :param a: the left end point of the interval [a, b]
     :param b: the right end point of the interval [a, b]
     :param n: number of Chebyshev nodes of the first kind taken over the interval [a, b]
