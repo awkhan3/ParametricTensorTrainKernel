@@ -102,7 +102,7 @@ def greedy_cross(u, fun, tol, nswp):
         if yl.shape[0] != len(ind_left_exl[ind_selector]) and yr.shape[1] != len(ind_right_exl[ind_selector]):
 
             ik, jk1, err_diff, maxy_t = get_new_cross(fun, I_le_ind, I_gr_ind, yl, yr,
-                                                      u[ind_selector], u[ind_selector + 1], status, tol,
+                                                      u[ind_selector], u[ind_selector + 1], status, maxy,
                                                       ind_left_exl[ind_selector],
                                                       ind_right_exl[ind_selector])
             maxy = max([abs(maxy_t), abs(maxy)])
