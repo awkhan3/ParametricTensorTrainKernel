@@ -39,7 +39,7 @@ To use these codes in your research, please see the [License](LICENSE). If you f
 1. [experiment_1](https://github.com/awkhan3/ParametricTensorTrainKernel/blob/main/experiments/experiment_1.py) compares our TTK (Tensor Train Kernel) method with thin SVD and reproduces Table 2 in the paper. 
 2. [experiment_2](https://github.com/awkhan3/ParametricTensorTrainKernel/blob/main/experiments/experiment_2.py) compares our PTTK method with Adaptive Cross Approximation (ACA) and reproduces Table 3 and Table 4 in the paper.
 3. [experiment_3](https://github.com/awkhan3/ParametricTensorTrainKernel/blob/main/experiments/experiment_3.py) performs PTTK-Global-1 and PTTK-Global-2 on symmetric kernel matrices and reproduces Table 5 in the paper.
-4. [experiment_4](https://github.com/awkhan3/ParametricTensorTrainKernel/blob/main/experiments/experiment_4.py) compares our PTTK-Global-1 and PTTK-Global-2 method with [RP-Cholesky](https://github.com/eepperly/Randomly-Pivoted-Cholesky) and Nystrom on symmetric positive semi-definite kernel matrices and reproduces Table 6 in the paper.
+4. [experiment_4](https://github.com/awkhan3/ParametricTensorTrainKernel/blob/main/experiments/experiment_4.py) compares our PTTK-Global-1 and PTTK-Global-2 methods with [RP-Cholesky](https://github.com/eepperly/Randomly-Pivoted-Cholesky) and Nystrom on symmetric positive semi-definite kernel matrices and reproduces Table 6 in the paper.
 5. [experiment_5](https://github.com/awkhan3/ParametricTensorTrainKernel/blob/main/experiments/experiment_5.py) compares our PTTK method with [Tucker applied to parametric kernel matrices](https://link.springer.com/article/10.1007/s10444-022-09979-7)  and reproduces Table 6 and Table 7 in the paper.
 
 ## Funding
