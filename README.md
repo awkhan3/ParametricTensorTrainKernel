@@ -20,11 +20,15 @@ The Python code requires the following packages to generate the tables.
 ## License
 To use these codes in your research, please see the [License](LICENSE). If you find our code useful, please consider citing our paper.
 ```bibtex
-@article{khan2024parametric,
+@article{khan2025parametric,
   title={Parametric kernel low-rank approximations using tensor train decomposition},
   author={Khan, Abraham and Saibaba, Arvind K},
-  journal={arXiv preprint arXiv:2406.06344},
-  year={2024}
+  journal={SIAM Journal on Matrix Analysis and Applications},
+  volume={46},
+  number={2},
+  pages={1006--1036},
+  year={2025},
+  publisher={SIAM}
 }
 ```
 ## Python Enviroment Setup
